@@ -1,0 +1,10 @@
+[package]
+name = "some_application"
+version = "0.1.0"
+authors = ["root"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rover = {path = "/project/upstream_lib/my_lib/"}
